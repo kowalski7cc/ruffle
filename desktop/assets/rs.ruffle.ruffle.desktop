@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Ruffle
+Comment=A Flash Player emulator written in Rust
+Categories=System;Emulator;
+
+Icon=rs.ruffle.ruffle
+Exec=ruffle
+Terminal=false

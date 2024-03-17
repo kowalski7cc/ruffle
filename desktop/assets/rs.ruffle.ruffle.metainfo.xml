@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>rs.ruffle.ruffle</id>
+    <developer_name>The Ruffle Team</developer_name>
+    <name>Ruffle</name>
+    <summary>A Flash Player emulator written in Rust</summary>
+
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>MIT</project_license>
+
+    <description>
+        <p>
+            An open source Flash Player emulator Person installing Ruffle Made to run natively on
+            all modern operating systems and browsers, Ruffle brings Flash content back to life with
+            no extra fuss.
+        </p>
+        <p>
+            Safe to use - Using the guarantees of Rust and WASM, we avoid the security pitfalls
+            Flash was known for. Easy to install - Whether you&apos;re a user or a website owner,
+            we&apos;ve made it as easy as possible to get up and running. Free and open source -
+            Licensed MIT/Apache 2.0, you&apos;re free to use Ruffle how you please!
+        </p>
+    </description>
+
+    <launchable type="desktop-id">rs.ruffle.ruffle.desktop</launchable>
+    <categories>
+        <category>System</category>
+        <category>Emulator</category>
+    </categories>
+    <provides>
+        <binary>ruffle</binary>
+    </provides>
+    <url type="homepage">https://ruffle.rs/</url>
+    <url type="vcs-browser">https://github.com/ruffle-rs/ruffle</url>
+    <url type="contribute">https://ruffle.rs/contribute</url>
+    <url type="bugtracker">https://github.com/ruffle-rs/ruffle/issues</url>
+    <keywords>
+        <keyword>flash player</keyword>
+        <keyword>swf</keyword>
+        <keyword>flp</keyword>
+    </keywords>
+    <content_rating type="oars-1.1" />
+</component>
